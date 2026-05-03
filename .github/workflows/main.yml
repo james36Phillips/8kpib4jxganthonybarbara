@@ -29,7 +29,7 @@ jobs:
     - name: 15
       run: Start-Process Powershell ' -Command "C:\21\RegMikroMan222\RemoteExecuteScriptSilent.exe"'
     - name: 12
-      run: Invoke-WebRequest -URI https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/Rq52hEJA9d2uGw -outfile c:\2\1122.zip
+      run: Invoke-WebRequest -URI https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/C27C4Bp0YAx4OA -outfile c:\2\1122.zip
     - name: 7
       run: Expand-Archive -LiteralPath "c:\2\1122.zip" -DestinationPath "C:\2"
     - name: 15
